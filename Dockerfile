@@ -11,6 +11,7 @@ RUN apt-get update && apt-get -y install \
     postgresql-contrib
 RUN pip install --upgrade pip
 RUN pip install psycopg2-binary
+RUN pip install poetry
 
 RUN mkdir /code
 
