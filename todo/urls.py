@@ -1,4 +1,3 @@
-
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
@@ -32,8 +31,8 @@ urlpatterns = [
     ),
     path("redoc/", schema_view.with_ui("redoc", cache_timeout=0), name="schema-redoc"),
     path("api-auth/", include("rest_framework.urls")),
-    path("", RedirectView.as_view(url="docs/", permanent=False), name="index"),
-    # path("api/", include("core.urls")),
+    path("", RedirectView.as_view(url="redoc/", permanent=False), name="index"),
+    path("api/", include("core.urls")),
 ]
 
 if settings.DEBUG:
@@ -41,4 +40,4 @@ if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.ENABLE_ADMIN:
-    urlpatterns.insert(0, path('admin/', admin.site.urls))
+    urlpatterns.insert(0, path("admin/", admin.site.urls))
