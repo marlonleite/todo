@@ -31,7 +31,7 @@ urlpatterns = [
     ),
     path("redoc/", schema_view.with_ui("redoc", cache_timeout=0), name="schema-redoc"),
     path("api-auth/", include("rest_framework.urls")),
-    path("", RedirectView.as_view(url="redoc/", permanent=False), name="index"),
+    path("", RedirectView.as_view(url="docs/", permanent=False), name="index"),
     path("api/", include("core.urls")),
 ]
 

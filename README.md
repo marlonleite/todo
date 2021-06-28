@@ -80,7 +80,7 @@ make create_admin
 docker-compose down
 ```
 ```
-docker-compose up -d
+docker-compose up
 ```
 8. Good, go to Credit Recovery API Swagger Dashboard API url:
 ```
