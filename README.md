@@ -110,7 +110,7 @@ To watch the videos project access the follow url:
 
 <https://mega.nz/file/bREE2TZK#RMSEPH3hcGQ6AmRWynAi4heFXT1GcLR01iED5b3EfJQ>
 
-2 - Swagger
+2 - Setup and Swagger
 
 <https://mega.nz/file/LMNUWT5I#ccs_GJVNFLXSChdiWhLp5XoUSeH7MQ8N7PzxSMaWSMs>
 
