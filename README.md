@@ -114,7 +114,7 @@ To watch the videos project access the follow url:
 
 <https://mega.nz/file/LMNUWT5I#ccs_GJVNFLXSChdiWhLp5XoUSeH7MQ8N7PzxSMaWSMs>
 
-3 - Insominia
+3 - Api with Insominia
 
 <https://mega.nz/file/2NMwXLqD#QQT1yL1t9w5zmTcIxTpKYXazp93x8kYgPQzjG9YMa6s>
 
